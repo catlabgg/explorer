@@ -1,7 +1,7 @@
 <template>
     <div class="img-tooltip">
         <img
-            :src="imgSrc"
+            :src="`https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/${id}.jpg`"
             :alt="id"
             :title="id"
             :style="scaleObject"

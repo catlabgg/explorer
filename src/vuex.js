@@ -9,7 +9,7 @@ export const store = createStore({
       settings: {
         sliderVal: 1,
         display: "none",
-        language: "chinese",
+        language: "english",
       },
       icons:{
         previewIndex:0,
