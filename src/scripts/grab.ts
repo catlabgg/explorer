@@ -35,7 +35,22 @@ class Grab {
   }
 
   get(assets: assetsType, lang = this.lang) {
-    return instance.get(`https://unpkg.com/@magicwenli/league-fan-assets/${langMap.get(lang)}/${assets}.json`);
+    switch (assets) {
+      case "loot":
+        break;
+      case "summoner-emotes":
+        break;
+      case "summoner-icon-sets":
+        break;
+      case "summoner-icons":
+        return instance.get(`https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/summoner-icons.json`);
+      case "ward-skin-sets":
+        break;
+      case "ward-skins":
+        break;
+    }
+
+    throw new Error("Not implemented");
   }
 }
 
