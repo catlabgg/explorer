@@ -7,7 +7,7 @@ import 'terminal.css';
     <div class="terminal-nav">
       <div class="terminal-logo">
         <div class="logo terminal-prompt">
-          <a href="./" class="no-style">League Fan</a>
+          <a href="./" class="no-style">Explorer</a>
         </div>
       </div>
       <nav class="terminal-menu">
